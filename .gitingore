@@ -1,0 +1,9 @@
+.env
+# Python 缓存
+**/__pycache__/
+**/*.py[cod]
+*.log
+*.swp
+*.tmp
+*.bak
+*.txt~
