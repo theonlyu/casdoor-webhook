@@ -1,0 +1,22 @@
+confluence:
+  enabled: true
+  base_url: https://ubuntu-confluence.orb.local/rest/api
+  token_env: CONFLUENCE_TOKEN
+
+gitlab:
+  enabled: true
+  base_url: https://ubuntu-gitlab.orb.local/api/v4
+  token_env: GITLAB_TOKEN
+
+zentao:
+  enabled: true
+  base_url: https://ubuntu-zentao.orb.local/zentao/api.php/v1
+  #token_env: ZENTAO_TOKEN
+  username: admin
+  password_env: ZENTAO_PASSWORD
+
+grafana:
+  enabled: true
+  base_url: http://198.19.249.107:3000/api
+  username: admin
+  password_env: GRAFANA_PASSWORD
